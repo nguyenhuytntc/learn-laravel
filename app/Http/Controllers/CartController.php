@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
-    /**
+    /**git
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -14,7 +14,6 @@ class CartController extends Controller
     public function index(Request $request, $id, $name  = '')
     {
         //
-        echo $request->file('image');
         return $id . $name;
     }
 
